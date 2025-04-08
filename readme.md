@@ -35,6 +35,8 @@ Use a terminal application configured with the following settings:
    
 - Connect the LR1121 Board to your MG24 kit.
 - Connect the wires according to Semtech Instructions. 
+![LR1121 Board schematics](images/LR1121_schematic.png)
+![LR1121 Board schematics 2](images/LR1121_schematic2.png)
  
 
 * J3-8  3V3 -> VBAT or 3.3V on the expansion headers
