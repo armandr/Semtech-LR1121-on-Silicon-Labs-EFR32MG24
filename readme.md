@@ -20,7 +20,8 @@ Silicon Labs [xG24-EK2703A EFR32xG24 Explorer Kit](https://www.silabs.com/develo
 
 I used [LBAA0XV2GT-001EVK from Murata] (https://www.murata.com/en-global/products/connectivitymodule/lpwa/overview/lineup/type-2gt)
 ![LBAA0XV2GT-001EVK](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/6/003/220/549/MFG_LBAA0XV2GT-001EVK_web%28640x640%29.jpg)
-but it's been confirmed to work with the Semtech EVK as well: [lr1121dvk1tcks] (https://www.semtech.com/products/wireless-rf/lora-connect/lr1121dvk1tcks)
+
+it's been confirmed to work with the Semtech EVK as well: [lr1121dvk1tcks] (https://www.semtech.com/products/wireless-rf/lora-connect/lr1121dvk1tcks)
 
 ### Pre-requisits:
 Connect the LR1121 to the ST NUCELO.
