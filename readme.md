@@ -15,7 +15,11 @@ This project was written in one afternoon sitting and there may be some shortcut
 ### Hardware Used:
 
 Silicon Labs [xG24-EK2703A EFR32xG24 Explorer Kit](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview)
+
+![xG24-EK2703A EFR32xG24](https://silabs.scene7.com/is/image/siliconlabs/xg24-ek2703a?)
+
 I used [LBAA0XV2GT-001EVK from Murata] (https://www.murata.com/en-global/products/connectivitymodule/lpwa/overview/lineup/type-2gt)
+![LBAA0XV2GT-001EVK](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/6/003/220/549/MFG_LBAA0XV2GT-001EVK_web%28640x640%29.jpg)
 but it's been confirmed to work with the Semtech EVK as well: [lr1121dvk1tcks] (https://www.semtech.com/products/wireless-rf/lora-connect/lr1121dvk1tcks)
 
 ### Pre-requisits:
