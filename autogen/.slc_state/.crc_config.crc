@@ -1,0 +1,27 @@
+#CRC Codes for initially generated config files -- do not modify!
+FreeRTOSConfig.h=815376956
+SEGGER_RTT_Conf.h=826299495
+dmadrv_config.h=1207334949
+emlib_core_debug_config.h=-212744839
+sl_board_control_config.h=185964020
+sl_cli_config.h=690748531
+sl_cli_config_inst.h=625733942
+sl_debug_swo_config.h=-1563780709
+sl_device_init_dcdc_config.h=-1134833866
+sl_device_init_emu_config.h=622680131
+sl_device_init_hfxo_config.h=1190507251
+sl_device_init_lfxo_config.h=-1774118372
+sl_emlib_gpio_init_RDO_BUSY_config.h=1331178380
+sl_emlib_gpio_init_RDO_INT_config.h=-1809026761
+sl_emlib_gpio_init_RDO_NSS_config.h=556661317
+sl_emlib_gpio_init_RDO_RES_config.h=2062565038
+sl_iostream_eusart_vcom_config.h=-1140912584
+sl_memory_config.h=687128566
+sl_simple_button_btn0_config.h=1069012695
+sl_simple_button_btn1_config.h=-1501126694
+sl_simple_button_config.h=749824782
+sl_simple_led_led0_config.h=-655313954
+sl_simple_led_led1_config.h=1719795277
+sl_sleeptimer_config.h=1360009810
+sl_spidrv_eusart_RDO_config.h=843328200
+spidrv_config.h=112055036

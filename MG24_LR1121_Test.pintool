@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32MG24B210F1536IM48" partId="mcu.arm.efr32.mg24.efr32mg24b210f1536im48" contextId="com.silabs.sdk.stack.super:4.4.5._-2138583837">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EUSART0" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_IOSTREAM_EUSART_VCOM%T%sl_iostream_eusart_vcom_config.h"/>
+    <property object="EUSART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="EUSART1" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_SPIDRV_EUSART_RDO%T%sl_spidrv_eusart_RDO_config.h"/>
+    <property object="EUSART1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="GPIO" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_DEBUG%T%sl_debug_swo_config.h"/>
+    <property object="GPIO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="LFXO" propertyId="ABModule.selectedRequirement" value="lfxo%T%SL_DEVICE_INIT_LFXO%T%sl_device_init_lfxo_config.h"/>
+    <property object="LFXO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PA04" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED0%T%sl_simple_led_led0_config.h"/>
+    <property object="PA04" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA07" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED1%T%sl_simple_led_led1_config.h"/>
+    <property object="PA07" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_RDO_BUSY%T%sl_emlib_gpio_init_RDO_BUSY_config.h"/>
+    <property object="PB00" propertyId="pin.name" value="RDO_BUSY"/>
+    <property object="PB00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB01" propertyId="pin.name" value="RDO_INT"/>
+    <property object="PB01" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB02" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_BUTTON_BTN0%T%sl_simple_button_btn0_config.h"/>
+    <property object="PB02" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB03" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_BUTTON_BTN1%T%sl_simple_button_btn1_config.h"/>
+    <property object="PB03" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_RDO_NSS%T%sl_emlib_gpio_init_RDO_NSS_config.h"/>
+    <property object="PC00" propertyId="pin.name" value="RDO_NSS"/>
+    <property object="PC00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC08" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_RDO_RES%T%sl_emlib_gpio_init_RDO_RES_config.h"/>
+    <property object="PC08" propertyId="pin.name" value="RDO_RES"/>
+    <property object="PC08" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.cts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.rts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.cts" value="9"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rts" value="8"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="6"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.tx" value="5"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.sclk" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.rx" value="34"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.sclk" value="33"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.tx" value="35"/>
+    <property object="PORTIO" propertyId="portio.gpio.enable.swv" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_i" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.lfxo.enable.lfxtal_o" value="Enabled"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
